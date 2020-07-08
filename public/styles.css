@@ -7,7 +7,7 @@
 }
 .navbar {
   width: 100%;
-  background-color: #2c2a25;
+  background-color: #c63131;
 }
 .navbar .inner-width {
   display: flex;
@@ -111,4 +111,27 @@
   font-size: 14px;
   align-items: center;
   justify-content: space-between;
+}
+.commercial-appeals {
+  padding: 15px;
+}
+.commercial-appeals img {
+  height: 27px;
+}
+.commercial-appeals .icon {
+  padding: 15px;
+}
+.each {
+  display: flex !important;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.categorys {
+  display: grid;
+}
+.categorys img {
+  width: 50%;
+  height: 50%;
 }
