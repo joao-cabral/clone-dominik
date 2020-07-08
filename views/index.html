@@ -3,12 +3,19 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css"/>
+      
       <link rel="stylesheet" href="../public/styles.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="../public/script.js"></script>
    </head>
    <body>
-      <header>
+      <!-- <header> -->
          <nav class="navbar">
             <div class="inner-width">
                <button class="menu-toggler" onclick="menuToggler(this)">
@@ -23,57 +30,162 @@
                   <a>carrinho</a>
                </div>
                <strong class="logo">
-                  <img src="https://www.dominik.com.br/media/logo/stores/1/2D-1_DOMINIK_copiar.png" alt="logo">
+                  <img src="https://www.printset.com.br/media/logo/stores/1/logo_printset.png" alt="logo">
                </strong>
                <div class="mini-cart">
                   <a href="https://www.dominik.com.br/checkout/cart/">
                   </a>
                </div>
             </div>
-            <div class="search-container">
+            <!-- <div class="search-container">
                <form class="search-box" action="/action_page.php">
                  <input type="text" placeholder="Faça sua busca aqui..." name="search">
                  <button type="submit"><i class="fa fa-search"></i></button>
                </form>
-             </div>
+             </div> -->
          </nav>
-      </header>
+      <!-- </header> -->
 
-      <div id="banner">
-         <div class="banner-container">
-            <a href="/arraia-de-ofertas-de-maquinas-e-ferramentas/c">
-               <picture>
-                  <source srcset="https://www.dominik.com.br/media/contentmanager/content/AF-9699-CAMPANHA-1920x610_1.jpg" media="(min-width: 768px)" alt="arraia">
-                  <img src="https://www.dominik.com.br/media/contentmanager/content/AF-9699-CAMPANHA-768x500_1.jpg" alt="">
-               </picture>
-           </a>
+      <div class="banner-container">
+         <div class="carousel">
+            <div><img src="https://www.printset.com.br/media/contentmanager/content/banner-hospital-mobile.png" alt="Hospital" /></div>
+            <div><img src="https://www.printset.com.br/media/contentmanager/content/banner-site-printset-5x-sem-juros-mobile.png" alt="juros" /></div>
+            <div><img src="https://www.printset.com.br/media/contentmanager/content/banner1%20mobile_2.jpg" alt="pulseria"/></div>
+            <div><img src="https://www.printset.com.br/media/contentmanager/content/banner-site-novo-printset-mobile.png" alt="site-novo" /></div>
          </div>
       </div>
       
-      <div id="tabsProducts">
+      <div class="commercial-appeals">
+         <div class="carousel-commercial-appeals">
+            <div class="each">
+               <div class="icon">
+                  <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/apelo04.svg" alt="">
+               </div>
+               <div class="text-icon">
+                  Mais de 22 anos de tradição e confiança
+               </div>
+            </div>
 
+            <div class="each">
+               <div class="icon">
+                  <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/apelo04.svg" alt="">
+               </div>
+               <div class="text-icon">
+                  Qualidade máxima Tyvek
+               </div>
+            </div>
+
+            <div class="each">
+               <div class="icon">
+                  <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/apelo04.svg" alt="">
+               </div>
+               <div class="text-icon">
+                  Produto com tecnologia anti-falsificação
+               </div>
+            </div>
+
+            <div class="each">
+               <div class="icon">
+                  <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/apelo04.svg" alt="">
+               </div>
+               <div class="text-icon">
+                  Pagamento após a arte aprovada
+               </div>
+            </div>
+
+            <div class="each">
+               <div class="icon">
+                  <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/apelo04.svg" alt="">
+               </div>
+               <div class="text-icon">
+                  Agilidade na produção e entrega
+               </div>
+            </div>
+
+         </div>
       </div>
-      <div id="highlights">
 
+      <div class="categorys">
+         <div class="content">
+            <ul>
+               <li><img src="https://www.printset.com.br/media/contentmanager/content/pulseira.png" alt="Pulseiras"></li>
+               <li><img src="https://www.printset.com.br/media/contentmanager/content/ingresso.png" alt="Ingressos"></li>
+               <li><img src="https://www.printset.com.br/media/contentmanager/content/ticket.png" alt="Ticket"></li>
+            </ul>
+         </div>
       </div>
 
-      <div id="brands">
-
+      <div class="see-how">
+         <div class="content">
+            <div class="see-how-general">
+               <div class="title">
+                  <div class="click">
+                     <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/click.png" alt="Click home">
+                  </div>
+                  <h3>Veja como é fácil</h3>
+                  <p>
+                     Crie o material que seu evento precisa com<br>
+                     apenas alguns toques e aproveite a festa.
+                  </p>
+               </div>
+               <div class="step-1">
+                  <div class="step-img">
+                     <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/passo-1.svg" alt="Passo 1">
+                  </div>
+                  <div class="step-text">
+                     <h4>01.</h4>
+                     <h3>Personalise</h3>
+                     <p>Contamos com materiais de apoio para você se preocupar apenas em aproveitar a festa, escolha o
+                        produto que deseja nessa etapa.</p>
+                  </div>
+               </div>
+               <div class="step-2">
+                  <div class="step-img">
+                     <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/passo-2.svg" alt="Passo 2">
+                  </div>
+                  <div class="step-text">
+                     <h4>01.</h4>
+                     <h3>Personalise</h3>
+                     <p>Contamos com materiais de apoio para você se preocupar apenas em aproveitar a festa, escolha o
+                        produto que deseja nessa etapa.</p>
+                  </div>
+               </div>
+               <div class="step-3">
+                  <div class="step-img">
+                     <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/passo-3.svg" alt="Passo 3">
+                  </div>
+                  <div class="step-text">
+                     <h4>01.</h4>
+                     <h3>Personalise</h3>
+                     <p>Contamos com materiais de apoio para você se preocupar apenas em aproveitar a festa, escolha o
+                        produto que deseja nessa etapa.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
 
-      <div id="categories">
+      <div class="company-brands">
+         <div class="content">
+            <div class="titulo">
+               <h3>Veja quem confia e usa Printset</h3>
+            </div>
+            <div class="carousel">
 
-      </div>
-      <div id="lasted">
-
-      </div>
-
-      <div id="verified-reviews">
-
+            </div>
+         </div>
       </div>
 
       <footer class="page-footer">
+         <div class="newsletter">
 
+         </div>
+         <div class="security-payment-container">
+            <h2>Segurança</h2>
+            <img src="https://www.printset.com.br/media/wysiwyg/seguranca.png" alt="Segurança">
+            <h2>Pagamento</h2>
+            <img src="https://www.printset.com.br/media/wysiwyg/pagamento.png" alt="Segurança">
+         </div>
       </footer>
    </body>
 </html>
